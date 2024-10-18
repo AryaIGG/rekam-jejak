@@ -1,0 +1,39 @@
+ int a = 15136;
+            int b = 71645;
+            int c = 144300;
+            int d = 176555;
+
+            system ("cls");
+              printf("------------------------------");
+              printf("\n------Yabes Online Store------");
+              printf("\n------------------------------");
+              printf("\n");
+
+              printf("Daftar Top up Game PGR\n");
+              printf("\n");
+              printf("a. 5 RC, 15136rb\n");
+              printf("b. 28 RC, 71645rb\n");
+              printf("c. 59 RC, 144300rb\n");
+              printf("d. 71 RC, 176555rb\n");
+              printf("\n");
+
+              printf("Masukan alamat akun!!\n");
+              printf("Mohon masukan alamat akun dengan benar, agar tidak terjadi kesalahpahaman proses...\n");
+              printf("\n");
+
+              printf("Masukan request pesanan : ");
+              scanf("%c");
+              printf("Masukan user : ");
+              scanf("%s", &masukan_user);
+              printf("Masukan id user : ");
+              scanf("%d", &idUser);
+              printf("\n");
+
+              printf("Alamat akun\n");
+              printf("----------------------------\n");
+              printf("User :%s\n", masukan_user);
+              printf("Id User :%d\n", idUser);
+              printf("\n");
+
+              printf("Menunggu respon admin...\n");
+              printf("Batas maksimal 24 jam dari terakhir kali anda memesan, jika tidak ada respon hubungin kami!!\n");
