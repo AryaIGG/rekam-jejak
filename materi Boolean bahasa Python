@@ -1,0 +1,142 @@
+# PYTHON (Operasi Logika atau Boolean)
+
+## NOT
+Merupakan kebalikan dari nilai Boolean pertama.
+
+a = False
+b = not a
+
+print ("Data A = ", a)
+print ("Data B = ", b) 
+============================
+Data A = False
+Data B = True
+
+
+
+## OR 
+Akan true, jika salah satu nilai Boolean bersifat true.
+(Dan akan False, jika kedua buah Boolean bersifat false.)
+
+a = True
+b = False
+c = a or b
+
+print(a,"0R",b,"=", c)
+
+----------------------------
+
+a = False
+b = True
+c = a or b
+
+print(a,"OR",b,"=", c)
+
+----------------------------
+
+a = True
+b = True
+c = a or b
+
+print(a,"OR",b,"=", c)
+
+----------------------------
+
+a = False
+b = False
+c = a or b
+
+print(a,"OR",b,"=", c)
+
+============================
+
+True  OR False = True
+False OR True  = True
+True  OR True  = True
+False OR False = False
+
+
+
+## AND
+Akan false, jika salah satu nilai boolean memiliki nilai false.
+(Dan akan true, jika kedua buah nilai Boolean memiliki nilai true.)
+
+a = True
+b = False
+c = a and b
+
+print(a,'AND',b,'=', c)
+
+----------------------------
+
+a = False
+b = True
+c = a and b
+
+print(a,'AND',b,'=', c)
+
+----------------------------
+
+a = True
+b = True
+c = a and b
+
+print(a,'AND',b,'=', c)
+
+----------------------------
+
+a = False
+b = False
+c = a and b
+
+print(a,'AND',b,'=', c)
+
+============================
+
+True  AND False = False
+False AND True  = False
+True  AND True  = True
+False AND False = False
+
+
+
+## XOR
+Akan true jika kedua buah nilai Boolean berbeda.
+(Akan false, jika kedua buah nilai Boolean sama.)
+
+a = True
+b = False
+c = a ^ b
+
+print(a,'XOR',b,'=', c)
+
+----------------------------
+
+a = False
+b = True
+c = a ^ b
+
+print(a,'XOR',b,'=', c)
+
+----------------------------
+
+a = True
+b = True
+c = a ^ b
+
+print(a,'XOR',b,'=', c)
+
+----------------------------
+
+a = True
+b = True
+c = a ^ b
+
+print(a,'XOR',b,'=', c)
+
+============================
+
+True  XOR False = True
+False XOR True  = True
+False XOR False = False
+True  XOR True  = False 
