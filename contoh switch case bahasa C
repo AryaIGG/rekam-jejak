@@ -1,0 +1,58 @@
+ switch(nama){
+    case 'Arya':
+        system("cls");
+        puts("Please wait...");
+        puts("Log in confirmed!!");
+        printf("\n");
+        puts("Calculator Simple App");
+        printf("\n");
+        puts("Wellcome back Arya!!");
+        printf("\n");
+
+        printf("Input 1 :");
+        scanf(" %i",&a);
+        printf("Input 2 :");
+        scanf(" %i",&b);
+        puts("");
+
+        c=a+b;
+
+        printf("Total: %i\n",c);
+        puts("Thank you for using this my features :>");
+        printf("\n");
+        puts("Created by Arya");
+        break;
+
+    default:
+        printf("Username or Password eror, Please try again...");
+    }
+
+    switch(password2) {
+    case 543312:
+        system("cls");
+        puts("Please wait...");
+        puts("Log in confirmed!!");
+        printf("\n");
+        puts("Calculator Simple App");
+        printf("\n");
+        puts("Wellcome back Arya!!");
+        printf("\n");
+
+        printf("Input 1 :");
+        scanf(" %i",&a);
+        printf("Input 2 :");
+        scanf(" %i",&b);
+        puts("");
+
+        c=a+b;
+
+        printf("Total: %i\n",c);
+        puts("Thank you for using this my features :>");
+        printf("\n");
+        puts("Created by Arya");
+        break;
+
+    default:
+        printf("Username or Password eror, Please try again...");
+
+    }
