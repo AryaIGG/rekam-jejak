@@ -68,6 +68,7 @@ Tahun ini sangat penting buat saya karena:
 ## 📍 Next Step (Rencana Kelas 11)
 
 - Laravel + Web Dev
+- Learning more Frameworks
 - Tailwind CSS
 - Git & GitHub untuk portofolio
 
